@@ -118,6 +118,7 @@ span {
   display: flex;
   gap: 1rem;
   padding: 0.3rem;
+  align-items: center;
 }
 
 h1 {
@@ -127,7 +128,7 @@ h1 {
 }
 
 .image3 {
-  display: inline;
+  display: flex;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -140,5 +141,8 @@ h1 {
 
 .flex3 span {
   display: inline-block;
-  margin-bottom: 2rem;
+}
+
+.profile-flex {
+  display: flex;
 }
