@@ -51,6 +51,13 @@ ul li {
   padding: 0.3rem 0.7rem;
   border-radius: 1.5rem;
   font-size: 0.6rem;
+  transition: all 500ms ease-in-out;
+}
+
+.btn-1:hover {
+  transform: scale(3);
+  background-color: black;
+  color: white;
 }
 
 .btn-2 {
