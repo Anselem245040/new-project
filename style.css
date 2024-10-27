@@ -142,7 +142,7 @@ h1 {
 }
 
 .image4 {
-  width: 130px;
+  width: fit-content;
   height: 90px;
 }
 
@@ -152,4 +152,8 @@ h1 {
 
 .profile-flex {
   display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.4rem;
+  margin-top: 1.5rem;
 }
